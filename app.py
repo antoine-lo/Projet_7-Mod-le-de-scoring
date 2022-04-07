@@ -1,4 +1,4 @@
-#APP FLASK (commande : flask run)
+
 from Utils.conf import path_test,path_pipeline_obj,threshold
 import pandas as pd
 import warnings
