@@ -1,5 +1,3 @@
-Package                           Version
---------------------------------- -------------------
 imbalanced-learn                  0.9.0
 imblearn                          0.0
 importlib-metadata                4.11.2
