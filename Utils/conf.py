@@ -1,8 +1,8 @@
 ######## ALL PATH
 path_pipeline_obj = r'C:\\Users\\alojou\\Notebook Python\\Projet_7 Modèle de scoring\\finalized_pipeline.pkl'
 path_lime_explainer = r'C:\\Users\\alojou\\Notebook Python\\Projet_7 Modèle de scoring\\lime_explainer.pkl'
-path_train = r'C:\\Users\\alojou\\Notebook Python\\Projet_7 Modèle de scoring\\input\\df_train.csv'
-path_test = 'C:\\Users\\alojou\\Notebook Python\\Projet_7 Modèle de scoring\\input\\df_test.csv'
+path_train = r'C:\\Users\\alojou\\Notebook Python\\Projet_7 Modèle de scoring\\input\\df_train_sample.csv'
+path_test = 'C:\\Users\\alojou\\Notebook Python\\Projet_7 Modèle de scoring\\input\\df_test_sample.csv'
 
 ######## PARAMETER
 threshold = 0.325
