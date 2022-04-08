@@ -27,7 +27,7 @@ def main(path_test, path_train):
 
     df = chargement_data(path_test)
     df_train = chargement_data(path_train)
-    liste_id = ["100762"]+df['SK_ID_CURR'].tolist()
+    liste_id = df['SK_ID_CURR'].tolist()
 
     #affichage formulaire
     st.markdown('# Outil d\'aide à la décision pour les prêts bancaires #\n')
