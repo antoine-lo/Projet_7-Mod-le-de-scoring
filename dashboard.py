@@ -1,6 +1,5 @@
  #APP STREAMLIT : (commande : streamlit run XX/dashboard.py depuis le dossier python)
  #100762
-from xml.etree.ElementInclude import include
 import streamlit as st
 import numpy as np
 import pandas as pd
