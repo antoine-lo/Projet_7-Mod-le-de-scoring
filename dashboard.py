@@ -4,9 +4,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import time
-from Utils.toolbox import model_local_interpretation,lime_explain,fonction_comparaison,df_chain_explain,graphes_streamlit,transform_numerical_to_categorical
+from Utils.toolbox import model_local_interpretation,fonction_comparaison,df_chain_explain,graphes_streamlit,transform_numerical_to_categorical
 from Utils.model import PipelinePredictor
-from Utils.conf import path_lime_explainer,path_pipeline_obj,path_test,path_train,threshold,col_for_explaination
+from Utils.conf import path_lime_explainer,path_pipeline_obj,path_test,path_train,col_for_explaination
 from request_api import api_result
 
 ### Data path
