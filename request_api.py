@@ -12,8 +12,8 @@ load_dotenv(path.join(basedir, '.env'))
 
 def api_result(x):
 
-  #  url = "http://127.0.0.1:5000/api/"
-  url=environ.get("url")
+    #  url = "http://127.0.0.1:5000/api/"
+    url=environ.get("url")
 
 
     j_data = x.to_json()
