@@ -1,13 +1,9 @@
 
-from Utils.conf import path_test,path_pipeline_obj,threshold
+from Utils.conf import path_pipeline_obj,threshold
 import pandas as pd
-import warnings
 from Utils.model import PipelinePredictor
-from flask import Flask, request, redirect, url_for, flash, jsonify
+from flask import Flask, request, jsonify
 import numpy as np
-import pickle as p
-import json
-warnings.filterwarnings("ignore", category=UserWarning)
 
 
 # App config.
