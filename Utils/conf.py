@@ -1,11 +1,12 @@
 ######## ALL PATH
-path_pipeline_obj = r'./finalized_pipeline.pkl'
-path_lime_explainer = r'./lime_explainer.pkl'
-path_train = r'./input/df_train_sample.csv'
-path_test = 'r./input/df_test_sample.csv'
+path_pipeline_obj = './finalized_pipeline.pkl'
+path_lime_explainer = './lime_explainer.pkl'
+path_train = './input/df_train_sample.csv'
+path_test = './input/df_test_sample.csv'
 
 ######## PARAMETER
 threshold = 0.325
+
 col_for_explaination = ['CNT_CHILDREN', 'AMT_INCOME_TOTAL', 'AMT_CREDIT', 'AMT_ANNUITY',
        'DAYS_BIRTH', 'DAYS_EMPLOYED', 'DAYS_REGISTRATION', 'DAYS_ID_PUBLISH',
        'HOUR_APPR_PROCESS_START', 'EXT_SOURCE_2',

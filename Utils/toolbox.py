@@ -6,7 +6,7 @@ import joblib
 import dill
 import lime
 import time
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def transform_numerical_to_categorical(df):
     

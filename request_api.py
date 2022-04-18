@@ -1,19 +1,18 @@
 #Appel de l'API : 
-import pandas as pd
-from Utils.conf import path_test
 import requests
 import json
-from os import environ, path
+import os
 from dotenv import load_dotenv
 
 
-basedir = path.abspath(path.dirname(_file_))
-load_dotenv(path.join(basedir, '.env'))
+#basedir = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+#load_dotenv(os.path.join(basedir, '.env'))
+load_dotenv()
 
 def api_result(x):
 
     #  url = "http://127.0.0.1:5000/api/"
-    url=environ.get("url")
+    url=os.environ.get("url")
 
 
     j_data = x.to_json()
