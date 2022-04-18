@@ -15,7 +15,7 @@ path_train = path_train
 model = PipelinePredictor(path_pipeline_obj)
 path_explainer = path_lime_explainer
 
-#@st.cache #mise en cache de la fonction pour exécution unique
+@st.cache #mise en cache de la fonction pour exécution unique
 def chargement_data(path):
     df = pd.read_csv(path)
     df = df.loc[:,~df.columns.str.startswith('Unnamed')]
