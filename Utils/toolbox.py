@@ -4,7 +4,7 @@ import streamlit as st
 import seaborn as sns
 import dill
 import time
-#st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def transform_numerical_to_categorical(df):
     
